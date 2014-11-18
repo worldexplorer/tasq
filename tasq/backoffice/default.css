@@ -1,0 +1,127 @@
+body {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 66%;
+}
+
+table, input, textarea, select, p, div, ul, ol, li {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 1em;
+}
+
+caption {
+	font-size: 1.3em;
+	padding-bottom: 1ex;
+	text-align: left;
+}
+
+th {
+	font-weight: bold;
+	font-size: 1em;
+/*	color: #AE7F01; */
+}
+
+table.gw {
+	background-color: #aaaaaa;
+/*	spacing: 0;*/
+}
+
+table.gw th, table.gw td {
+	background-color: #ffffff;
+}
+
+table.gw td.sel {
+	background-color: #FFEE88;
+}
+
+table.gw td.cur {
+	background-color: #99FFCC;
+}
+
+.name {
+	padding-right: 0.3ex;
+}
+
+
+
+a {color:#0D2B88; text-decoration:none;}
+a:hover {color:#0D2B88; text-decoration:underline;}
+
+a.cur {color:#FF1008; text-decoration:none; font-weight: bold;}
+a.cur:hover {color:#FF1008; text-decoration:underline;}
+
+hr {
+	height: 1px;
+	width: 100%;
+	color: #aaaaaa;
+	margin: 0px;
+	padding: 0;
+}
+
+.border {
+	border: 1px #aaaaaa solid;
+}
+
+
+table.dec, table.pricelist {
+	border-collapse: collapse;
+	}
+
+table.dec th,
+table.dec th a,
+table.pricelist th,
+table.pricelist th a{
+	color: #666666;
+	background-color: #eeeeee;
+	}
+
+table.dec th,
+table.pricelist th{
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	padding: 0.5ex 1ex 0.5ex 1ex;
+	}
+
+table.dec td,
+table.pricelist td{
+	border-bottom: 1px solid #999999;
+	border-right: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;	
+	padding: 0.5ex 1ex 0.5ex 1ex;
+	}
+
+table.dec caption, table.pricelist caption{
+	font-family: arial, helvetica, sans-serif;
+	font-style: italic;
+	text-align: left;
+	}
+
+table.dec table td, table.dec table th,
+table.pricelist table td, table.pricelist table th{
+	border: none;
+	background: none;
+	padding: 0;
+	}
+
+
+.list input.number {
+	padding: 0 2px 0 2px;
+	border: 1px solid gray;
+
+	text-align: right;
+	height: 3ex;
+	width: 7ex;
+
+}
+
+.list input.textfield {
+	padding: 0 2px 0 2px;
+	border: 1px solid gray;
+
+	text-align: left;
+	height: 3ex;
+	width: 7ex;
+}
+
+.w100 {
+	width: 100%;
+}

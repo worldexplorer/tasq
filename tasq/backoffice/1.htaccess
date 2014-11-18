@@ -1,0 +1,9 @@
+Options         +Indexes
+DirectoryIndex  index.php
+
+AuthType        Basic
+AuthName        "Private"
+AuthUserFile    /www/vhosts/dev.webie.ru/html/tasq/backoffice/.htpasswd
+require         valid-user
+
+#CharsetDisable  on

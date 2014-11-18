@@ -1,0 +1,15 @@
+use mysql;
+create database tasq CHARACTER SET utf8;
+create user 'tasq'@'localhost';
+#insert into user (host, user, password) values ('195.28.42.35', 'tasq', password("tasq"));
+grant all privileges on tasq.* to 'tasq'@'localhost' identified by password password('tasq');
+#update user set host='localhost', password=old_password("tasq") where user='tasq';
+flush privileges;
+
+flush privileges;
+use tasq;
+
+
+#_delete_user.sql
+#drop database tasq;
+#delete from user where user='tasq';

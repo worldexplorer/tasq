@@ -1,0 +1,9 @@
+use mysql;
+create database tasq;
+#create user 'tasq'@'localhost';
+insert into user (host, user, password) values ('%', 'tasq', password("tasq"));
+grant all privileges on tasq.* to 'tasq'@'localhost';
+# identified by password password('tasq');
+#update user set host='localhost', password=old_password("tasq") where user='tasq';
+flush privileges;
+use tasq;

@@ -1,0 +1,15 @@
+Options			+Indexes
+
+#AuthType        Basic
+#AuthName        "SQL files"
+#AuthUserFile	/usr/local/apache/conf/passwd
+#AuthGroupFile	/usr/local/apache/conf/group
+#require			valid user
+
+#CharsetDisable	on
+
+<Files "_info.php">
+    Allow from all
+</Files>
+
+Deny from all
